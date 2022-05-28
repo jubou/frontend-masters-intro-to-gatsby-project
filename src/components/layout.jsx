@@ -2,6 +2,8 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Seo from './seo';
 
+import '../styles/global.css';
+
 export default function Layout({
   children,
   title = false,
